@@ -1,0 +1,55 @@
+/*Navbar styles*/
+
+.navbar-dark, .dropdown-menu, .dropdown-item, .dropdown-toggle {
+	color: $soft-white;
+	background-color: $soft-black;
+	//background-color: rgba(24,31,28,0.85);
+}
+
+.nav-link {
+	display: inline-block;
+}
+
+#nav-tag {
+	padding-right: 0;
+}
+
+.navbar-dark {
+	box-shadow: $box-shadow;
+}
+
+.nav-logo {
+	height: 4.5rem;
+	width: auto;
+}
+
+.action-link {
+	background-color: $dark-green;
+	text-transform: uppercase;
+	border-radius: 15px;
+	padding: 0 0.2rem;
+	text-align: center;
+
+	.nav-link{
+		color: white !important;
+		width: 100%;
+	}
+	
+}
+
+#navbarDropdown {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+// For large screen
+@media (min-width: 1200px)
+{
+	.collapse {
+		position: absolute;
+		top: 3rem;
+		right: 0.9375rem;
+	}
+}
+

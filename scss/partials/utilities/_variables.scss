@@ -1,0 +1,57 @@
+//Color variables
+
+	$soft-black           : #181F1C;
+	$soft-white           : #EDEDED;
+	$gold                 : #9EA93F;  
+	$dark-green           : #008148;
+	$gray                 : #395756;  
+
+
+//Functional color variables
+
+	$primary-background   : $soft-white;
+	$primary-text         : $soft-black;
+	$secondary-text       : $gold;  
+	$secondary-background : $dark-green;   
+	$tertiary             : $gray;  
+
+//Font variables
+
+   	$display-font              : 'Raleway', Arial, sans-serif;
+   	$body-font                 : 'Montserrat', Arial, sans-serif;
+   	$base__font-size           : 16px;
+   	$base__line                : 1.5;
+   	$paragraph-width           : 75vw;
+   	$max-text-width--display   : 50rem;
+   	$max-text-width--body      : 35rem;
+
+   	$display-weight--light : 400;
+   	$display-weight--normal: 500;
+   	$body-weight--light    : 400;
+   	$body-weight--heavy    : 600;
+
+   	$font-shadow           : 2px 2px 4px #000;
+   	$box-shadow            : 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+// Font size variables
+
+	$font-h1      : 2.441rem;
+	$font-h2      : 1.953rem;
+	$font-h3      : 1.563rem;
+	$font-h4      : 1.25rem;
+	$font-p1      : 1rem;
+	$font-p2      : 0.8rem;
+	$font-p3      : 0.64rem;
+	$font-p4      : 0.512rem;
+
+// Asset paths
+
+	$path-img       : '../imgs';
+	$path-font      : '../assets/googlefonts';
+	$path-fa-icon   : '../assets/wildlandsicons/fonts';
+
+// Media query breakpoints
+	
+	$brk-narrow        : '(min-width: 43.75rem)';
+	$brk-sm            : '(min-width: 61.88rem)';
+	$brk-med           : '(min-width: 100rem)';

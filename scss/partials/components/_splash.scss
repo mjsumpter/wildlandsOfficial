@@ -1,0 +1,26 @@
+/*Home Page Splash Styles*/
+
+.splash {
+	position: fixed;
+	z-index: -2;
+	top: 4.688rem;
+	left: 0;
+	width: 100%;
+
+	&__photo {
+		height: 31.25rem;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	&__tagline {
+		@extend %display-text-uc;
+		position: absolute;
+		bottom: 3%;
+		width: 100%;
+		font-size: $font-h3;
+		color: $soft-white;
+		text-align: center;
+		text-shadow: $font-shadow;
+	}
+}
