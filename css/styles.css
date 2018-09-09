@@ -398,8 +398,11 @@ a {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); }
 
 .nav-logo {
-  height: 4.5rem;
+  height: 3.5rem;
   width: auto; }
+  @media only screen and (min-width: 600px) {
+    .nav-logo {
+      height: 4.5rem; } }
 
 .action-link {
   background-color: #008148;
