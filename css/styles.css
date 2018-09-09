@@ -431,7 +431,7 @@ a {
   left: 0;
   width: 100%; }
   .splash__photo {
-    height: 30.25rem;
+    height: 25.25rem;
     width: 100%;
     object-fit: cover; }
     @media only screen and (min-width: 600px) {
@@ -473,7 +473,7 @@ a {
 /*end fade in*/
 .content {
   position: relative;
-  top: 34.78rem;
+  top: 29.78rem;
   background: #EDEDED;
   padding: 0; }
   @media only screen and (min-width: 600px) {
