@@ -1,8 +1,12 @@
 .content {
 	position: relative;
-	top: 40.78rem;
+	top: 34.78rem;
 	background: $soft-white;
 	padding: 0;
+	@media #{$brk-sm}
+	{
+		top: 40.78rem;
+	}
 }
 
 .bio {

@@ -8,9 +8,13 @@
 	width: 100%;
 
 	&__photo {
-		height: 36.25rem;
+		height: 30.25rem;
 		width: 100%;
 		object-fit: cover;
+		@media #{$brk-sm}
+		{
+			height: 36.25rem;
+		}
 	}
 
 	&__tagline {

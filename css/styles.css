@@ -431,9 +431,12 @@ a {
   left: 0;
   width: 100%; }
   .splash__photo {
-    height: 36.25rem;
+    height: 30.25rem;
     width: 100%;
     object-fit: cover; }
+    @media only screen and (min-width: 600px) {
+      .splash__photo {
+        height: 36.25rem; } }
   .splash__tagline {
     position: absolute;
     bottom: 3%;
@@ -470,9 +473,12 @@ a {
 /*end fade in*/
 .content {
   position: relative;
-  top: 40.78rem;
+  top: 34.78rem;
   background: #EDEDED;
   padding: 0; }
+  @media only screen and (min-width: 600px) {
+    .content {
+      top: 40.78rem; } }
 
 .bio {
   padding: 0.3125rem 0;
