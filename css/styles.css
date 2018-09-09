@@ -304,7 +304,7 @@ html, body {
   max-width: 100%;
   margin: 0;
   padding: 0; }
-  @media (min-width: 43.75rem) {
+  @media only screen and (max-width: 600px) {
     html, body {
       font-size: 18px; } }
 
@@ -369,7 +369,7 @@ a {
     filter: drop-shadow(2px 2px 1px #000);
     cursor: pointer;
     width: 15rem; }
-    @media (min-width: 61.88rem) {
+    @media only screen and (min-width: 600px) {
       .header__logo {
         width: 21.88rem; } }
   .header__toggle {
@@ -378,7 +378,7 @@ a {
     text-shadow: 2px 2px 4px #000;
     font-size: 30px;
     padding-top: 25px; }
-    @media (min-width: 43.75rem) {
+    @media only screen and (max-width: 600px) {
       .header__toggle {
         padding-top: 20px;
         font-size: 20px; } }
@@ -428,7 +428,7 @@ a {
   left: 0;
   width: 100%; }
   .splash__photo {
-    height: 31.25rem;
+    height: 36.25rem;
     width: 100%;
     object-fit: cover; }
   .splash__tagline {
@@ -467,7 +467,7 @@ a {
 /*end fade in*/
 .content {
   position: relative;
-  top: 35.78rem;
+  top: 40.78rem;
   background: #EDEDED;
   padding: 0; }
 
@@ -494,11 +494,17 @@ a {
       left: 0.8125rem;
       right: 0;
       height: 100%;
-      width: 88%;
+      width: 83%;
       border-radius: 100%;
       opacity: 0;
       transition: .5s ease;
       background-color: rgba(255, 255, 255, 0.9); }
+      @media (min-width: 425px) and (max-width: 762px) {
+        .gallery .staff-photo .staff-overlay {
+          width: 88%; } }
+      @media only screen and (min-width: 768px) {
+        .gallery .staff-photo .staff-overlay {
+          width: 88%; } }
       .gallery .staff-photo .staff-overlay:hover {
         opacity: 1;
         cursor: pointer; }
@@ -512,6 +518,9 @@ a {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center; }
+        @media only screen and (max-width: 600px) {
+          .gallery .staff-photo .staff-overlay__text h3 {
+            font-size: 1rem; } }
   .gallery .button {
     margin: 2rem 0;
     width: 100%; }
@@ -532,7 +541,7 @@ a {
       background-color: white;
       border-color: #008148; }
 .projects .card-img-top {
-  height: 16.5625rem;
+  height: 18.75rem;
   object-fit: cover; }
 
 .intern .banner__img {
@@ -552,15 +561,21 @@ a {
   box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
   position: relative;
   overflow: hidden;
-  height: 300px; }
-  @media (min-width: 990px) and (max-width: 1320px) {
+  height: 445px; }
+  @media (min-width: 450px) {
     .intern .quote-card {
       height: 425px; } }
+  @media (min-width: 520px) {
+    .intern .quote-card {
+      height: 325px; } }
+  @media (min-width: 945px) {
+    .intern .quote-card {
+      height: 370px; } }
 .intern .quote-card p {
   font-size: 22px;
   line-height: 1.5;
   margin: 0;
-  max-width: 80%; }
+  max-width: 100%; }
 .intern .quote-card cite {
   font-size: 16px;
   margin-top: 10px;
@@ -580,23 +595,25 @@ a {
   font-family: Georgia, serif;
   content: "”";
   position: absolute;
-  bottom: -110px;
+  bottom: -115px;
   line-height: 100px;
-  right: 32px;
+  right: -22px;
   font-size: 25em;
   color: rgba(238, 238, 238, 0.8);
   font-weight: normal; }
+.intern .rm-btstrap-mgn {
+  margin: 0; }
 .intern .intern-text {
   line-height: 1.5;
   letter-spacing: 1px;
-  max-width: 785px;
+  max-width: 40rem;
   margin: auto; }
-  @media (min-width: 61.88rem) {
+  @media (max-width: 991px) {
     .intern .intern-text {
-      padding-top: 65px; } }
-  @media (min-width: 100rem) {
+      padding-top: 10px; } }
+  @media only screen and (min-width: 992px) {
     .intern .intern-text {
-      padding-top: 100px; } }
+      vertical-align: middle; } }
 .intern .btn {
   margin: 2.5rem 0; }
   .intern .btn:hover {

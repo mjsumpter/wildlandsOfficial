@@ -23,7 +23,7 @@
    	$base__line                : 1.5;
    	$paragraph-width           : 75vw;
    	$max-text-width--display   : 50rem;
-   	$max-text-width--body      : 35rem;
+   	$max-text-width--body      : 40rem;
 
    	$display-weight--light : 400;
    	$display-weight--normal: 500;
@@ -52,6 +52,12 @@
 
 // Media query breakpoints
 	
-	$brk-narrow        : '(min-width: 43.75rem)';
-	$brk-sm            : '(min-width: 61.88rem)';
-	$brk-med           : '(min-width: 100rem)';
+	// Extra small devices (phones)
+	$brk-xs       : 'only screen and (max-width: 600px)';
+	// Small devices (portrait tablets and large phones)
+	$brk-sm            : 'only screen and (min-width: 600px)';
+	// Medium devices (landscape tablets)
+	$brk-med           : 'only screen and (min-width: 768px)';
+	// Large devices (laptops/desktops)
+	$brk-lg            : 'only screen and (min-width: 992px)';
+	$brk-xl            : 'only screen and (min-width: 1200px)';

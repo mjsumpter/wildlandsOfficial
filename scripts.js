@@ -1,5 +1,5 @@
 
-//Reloads page at top
+// //Reloads page at top
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }

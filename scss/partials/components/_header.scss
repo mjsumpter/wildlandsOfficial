@@ -42,7 +42,7 @@
 		font-size: 30px;
 		padding-top: 25px;
 
-		@media #{$brk-narrow} {
+		@media #{$brk-xs} {
 			padding-top: 20px;
 			font-size: 20px;
 		}
