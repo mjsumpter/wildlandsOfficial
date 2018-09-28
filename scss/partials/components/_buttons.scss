@@ -1,0 +1,15 @@
+.button-container {
+	margin: 3rem 2rem 4rem 2rem;
+	width: 100%;
+}
+
+.btn--alt {
+	background-color: $dark-green;
+	color: white;
+
+	&:hover {
+		color: $dark-green;
+		background-color: white;
+		border-color: $dark-green;
+	}
+}

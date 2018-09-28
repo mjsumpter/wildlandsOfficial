@@ -1,0 +1,14 @@
+.js-slide {
+	opacity: 0;
+}
+
+.js-slide-in-element {
+	opacity: 1;
+	transform: translateY(150px);
+  	animation: slide-in 0.8s ease forwards;
+}
+
+.js-slide-in-element:nth-child(even) {
+	animation-duration: 1.3s;  /* For stagger effect */
+}
+/*end fade in*/

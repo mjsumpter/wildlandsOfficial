@@ -1,0 +1,25 @@
+{
+  "name": "wildlands-conservation",
+  "version": "1.0.0",
+  "description": "Wildlands Conservation Webpage",
+  "main": "index.html",
+  "scripts": {
+	  "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjsumpter/wildlandsOfficial.git"
+  },
+  "author": "Matthew Sumpter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjsumpter/wildlandsOfficial/issues"
+  },
+  "homepage": "https://github.com/mjsumpter/wildlandsOfficial#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

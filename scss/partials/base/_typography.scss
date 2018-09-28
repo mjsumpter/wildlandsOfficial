@@ -1,0 +1,38 @@
+body {
+	font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5 {
+	@include text($display-font, $weight: $display-weight--normal);
+}
+
+h1 {
+	font-size: $font-h1;
+}
+
+h2 {
+	font-size: $font-h2;
+}
+
+h3 {
+	font-size: $font-h3;
+}
+
+h4 {
+	font-size: $font-h4;
+}
+
+p {
+	font-size: $font-p1;
+	@media #{$brk-med} {
+		font-size: $font-pL;
+	}
+}
+
+.feature__paragraph {
+	font-size: 1.7rem;
+}
+
+.btn {
+	font-size: 2rem;
+}

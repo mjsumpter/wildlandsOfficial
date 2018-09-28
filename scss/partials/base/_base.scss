@@ -1,23 +1,23 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
 html, body {
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
 	margin: 0;
 	padding: 0;	
-
-	@media #{$brk-xs} {
-		font-size: 18px;
-	}
+	font-size: 62.5%;
 }
 
 body {
-	@include text($body-font, 16px, $base__line, $body-weight--light, $primary-text);
-	background-color: $primary-background;
+	box-sizing: border-box;
 	overflow-x: hidden;
-}
-
-h1, h2, h3, h4, h5 {
-	@include text($display-font, $weight: $display-weight--normal);
 }
 
 a {
