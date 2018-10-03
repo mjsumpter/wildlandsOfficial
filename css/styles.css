@@ -636,7 +636,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 45rem; }
-  @media (min-width: 400px) {
+  @media (min-width: 600px) {
     .intern .quote-card {
       height: 30rem; } }
 
