@@ -635,7 +635,7 @@ p {
   box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
   position: relative;
   overflow: hidden;
-  height: 45rem; }
+  height: 40rem; }
   @media (min-width: 600px) {
     .intern .quote-card {
       height: 30rem; } }
