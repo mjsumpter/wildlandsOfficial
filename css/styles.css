@@ -410,6 +410,10 @@ p {
   margin: 3rem 2rem 4rem 2rem;
   width: 100%; }
 
+.btn--card {
+  width: 50%;
+  margin: 1rem auto; }
+
 .btn--alt {
   background-color: #008148;
   color: white; }
@@ -513,9 +517,12 @@ p {
 
 .navbar-collapse {
   position: absolute;
-  top: 8.67rem;
+  top: 7.125rem;
   left: 0;
   width: 100%; }
+  @media only screen and (min-width: 600px) {
+    .navbar-collapse {
+      top: 8.625rem; } }
   @media (min-width: 1200px) {
     .navbar-collapse {
       padding-top: 3.3rem;
@@ -631,7 +638,7 @@ p {
   height: 45rem; }
   @media (min-width: 400px) {
     .intern .quote-card {
-      height: 32rem; } }
+      height: 30rem; } }
 
 .intern .quote-card p {
   font-size: 2rem;

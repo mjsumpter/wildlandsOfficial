@@ -3,13 +3,21 @@
 	width: 100%;
 }
 
-.btn--alt {
-	background-color: $dark-green;
-	color: white;
+.btn {
 
-	&:hover {
-		color: $dark-green;
-		background-color: white;
-		border-color: $dark-green;
+	&--card {
+		width: 50%;
+		margin: 1rem auto;
+	}
+
+	&--alt {
+		background-color: $dark-green;
+		color: white;
+
+		&:hover {
+			color: $dark-green;
+			background-color: white;
+			border-color: $dark-green;
+		}
 	}
 }

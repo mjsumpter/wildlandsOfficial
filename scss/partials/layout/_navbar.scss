@@ -97,9 +97,13 @@
 
 .navbar-collapse {
 	position: absolute;
-	top: 8.67rem;
+	top: 7.125rem;
 	left: 0;
 	width: 100%;
+
+	@media #{$brk-sm} {
+		top: 8.625rem;
+	}
 
 	// For large screen
 	@media (min-width: 1200px)
@@ -108,5 +112,3 @@
 		position: initial;
 	}
 }
-
-
