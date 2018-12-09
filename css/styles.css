@@ -449,6 +449,19 @@ p {
   height: 30rem;
   object-fit: cover; }
 
+.content {
+  position: relative;
+  background: #EDEDED;
+  padding: 0;
+  height: 100%;
+  top: 7.125rem; }
+  @media only screen and (min-width: 600px) {
+    .content {
+      top: 8.625rem; } }
+
+.section-title {
+  padding: 4rem 2rem 1rem 2rem; }
+
 /*Navbar styles*/
 .navbar-dark,
 .dropdown-menu,
@@ -492,6 +505,8 @@ p {
         @media only screen and (min-width: 1200px) {
           .navbar-dark .navbar-nav .nav-item .nav-link {
             font-size: 1.3rem; } }
+      .navbar-dark .navbar-nav .nav-item .dropdown-menu {
+        border: none; }
       .navbar-dark .navbar-nav .nav-item .dropdown-item {
         color: rgba(255, 255, 255, 0.75) !important;
         white-space: initial; }
@@ -566,17 +581,13 @@ p {
   .footer__text {
     margin: 0; }
 
-.content {
-  position: relative;
-  top: calc(50vh + 7.125rem);
-  background: #EDEDED;
-  padding: 0;
-  height: 100%; }
+.content--home {
+  top: calc(50vh + 7.125rem); }
   @media only screen and (min-width: 600px) {
-    .content {
+    .content--home {
       top: calc(50vh + 8.625rem); } }
   @media only screen and (min-width: 768px) {
-    .content {
+    .content--home {
       top: calc(60vh + 8.625rem); } }
 
 .bio {
@@ -596,13 +607,15 @@ p {
 
 .gallery {
   height: auto;
-  margin: auto;
-  max-width: 80rem; }
+  margin: auto; }
   .gallery__title {
     text-transform: uppercase; }
   .gallery .staff-photo {
     max-width: 21.625rem;
     margin: 0.5rem 0; }
+    .gallery .staff-photo .img-thumbnail {
+      height: 18rem;
+      width: 100%; }
   .gallery .button-container {
     margin: 2rem 0;
     width: 100%; }
@@ -694,11 +707,11 @@ p {
     background: #181F1C; }
 
 .contact {
-  height: 20vh;
+  height: 50vh;
   position: relative;
-  margin: 1rem auto;
+  margin: 4rem auto;
   width: 90%;
-  max-width: 1000px; }
+  max-width: 1085px; }
   .contact:before {
     content: ' ';
     display: block;

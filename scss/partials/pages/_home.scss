@@ -1,9 +1,5 @@
-.content {
-	position: relative;
+.content--home {
 	top: calc(#{$splash-size-sm} + 7.125rem);
-	background: $soft-white;
-	padding: 0;
-	height: 100%;
 
 	@media #{$brk-sm} {
 		top: calc(#{$splash-size-sm} + 8.625rem);
@@ -43,7 +39,6 @@
 .gallery {
 	height: auto;
 	margin: auto;
-	max-width: 80rem;
 
 	&__title {
 		text-transform: uppercase;
@@ -52,6 +47,11 @@
 	.staff-photo {
 		max-width: 21.625rem;
 		margin: 0.5rem 0;
+
+		.img-thumbnail {
+			height: 18rem;
+			width: 100%;
+		}
 	}
 
 	.button-container {
@@ -182,11 +182,11 @@
 }
 
 .contact {
-	height: 20vh;
+	height: 50vh;
 	position: relative;
-	margin: 1rem auto;
+	margin: 4rem auto;
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1085px;
 
 	&:before {
 		content: ' ';
