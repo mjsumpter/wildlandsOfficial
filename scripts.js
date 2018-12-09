@@ -58,14 +58,5 @@ $(window).scroll(function(event) {
 var win = $(window);
 var allMods = $(".js-slide");
 
-// Already visible modules
-// allMods.each(function(i, el) {
-//   var el = $(el);
-//   if (el.visible(true)) {
-//     el.addClass("already-visible"); 
-//   } 
-// });
-//jQuery slide animation -- end
-
 
 // *************END JQUERY FUNCTIONS**************
