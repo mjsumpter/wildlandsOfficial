@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mjsumpter/wildlandsOfficial#readme",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "jquery": "^3.3.1"
